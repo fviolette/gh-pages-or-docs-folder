@@ -4,6 +4,11 @@
   <title>GUIDELINES</title>
   <body>
     <p>GUIDELINES!</p>
-    <p>TEST</p>
+    <codeblock>&lt;sqf:fix id="convertTitles">
+    &lt;sqf:description>
+        &lt;sqf:title>Convert other titles to text&lt;/sqf:title>
+    &lt;/sqf:description>
+    &lt;sqf:replace match="*[contains(@class, ' topic/title ')][position() > 1]" select="child::node()"/>
+&lt;/sqf:fix></codeblock>
   </body>
 </topic>

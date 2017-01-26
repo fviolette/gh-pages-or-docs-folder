@@ -4,6 +4,11 @@
   <h1 class="title topictitle1" id="ariaid-title1">GUIDELINES</h1>
   <div class="body">
     <p class="p">GUIDELINES!</p>
-    <p class="p">TEST</p>
+    <pre class="pre codeblock"><code>&lt;sqf:fix id="convertTitles"&gt;
+    &lt;sqf:description&gt;
+        &lt;sqf:title&gt;Convert other titles to text&lt;/sqf:title&gt;
+    &lt;/sqf:description&gt;
+    &lt;sqf:replace match="*[contains(@class, ' topic/title ')][position() &gt; 1]" select="child::node()"/&gt;
+&lt;/sqf:fix&gt;</code></pre>
   </div>
 </article></main></body></html>

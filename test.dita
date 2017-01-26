@@ -9,6 +9,6 @@
         &lt;sqf:title>Convert other titles to text&lt;/sqf:title>
     &lt;/sqf:description>
     &lt;sqf:replace match="*[contains(@class, ' topic/title ')][position() > 1]" select="child::node()"/>
-&lt;/sqf:fix></codeblock>
+&lt;/sqf:fix> test</codeblock>
   </body>
 </topic>

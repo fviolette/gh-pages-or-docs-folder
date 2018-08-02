@@ -3,7 +3,7 @@
 <topic id="test">
   <title>GUIDELINES</title>
   <body>
-    <p>GUIDELINES!</p>
+    <p>Change test</p>
     <codeblock>&lt;sqf:fix id="convertTitles">
     &lt;sqf:description>
         &lt;sqf:title>Convert other titles to text&lt;/sqf:title>

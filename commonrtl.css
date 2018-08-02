@@ -1,8 +1,16 @@
 /*!
- * This file is part of the DITA Open Toolkit project. See the accompanying LICENSE.md file for applicable licenses.
+ * This file is part of the DITA Open Toolkit project.
+ *
+ * Copyright 2015 Jarno Elovirta
+ *
+ * See the accompanying LICENSE file for applicable license.
  */
-/*
- | (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved.
+/*!
+ * This file is part of the DITA Open Toolkit project. 
+ *
+ * Copyright 2004, 2005 IBM Corporation
+ *
+ * See the accompanying LICENSE file for applicable license.
  */
 .codeblock {
   font-family: monospace;
@@ -181,12 +189,15 @@ h6.tasklabel {
   /* Default of italics to set apart figure captions */
   /* Use @frame to create frames on figures */
 }
+
 .figcap {
   font-style: italic;
 }
+
 .figdesc {
   font-style: normal;
 }
+
 .figborder {
   border-color: Silver;
   border-style: solid;
@@ -195,6 +206,7 @@ h6.tasklabel {
   padding-left: 3px;
   padding-right: 3px;
 }
+
 .figsides {
   border-color: Silver;
   border-left: 2px solid;
@@ -203,15 +215,18 @@ h6.tasklabel {
   padding-left: 3px;
   padding-right: 3px;
 }
+
 .figtop {
   border-color: Silver;
   border-top: 2px solid;
   margin-top: 1em;
 }
+
 .figbottom {
   border-bottom: 2px solid;
   border-color: Silver;
 }
+
 .figtopbot {
   border-bottom: 2px solid;
   border-color: Silver;
@@ -307,6 +322,17 @@ div.imagejustify {
 
 .linklist {
   margin-bottom: 1em;
+}
+
+ul.linklist {
+  margin-top: 0;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li.linklist {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .linklistwithchild {
@@ -407,6 +433,7 @@ dt.prereq {
   margin-bottom: 1em;
   margin-top: 1em;
 }
+
 .note .notetitle, .note .notelisttitle,
 .note .note__title {
   font-weight: bold;
@@ -441,6 +468,10 @@ dt.prereq {
 
 .shortcut {
   text-decoration: underline;
+}
+
+.menucascade > abbr {
+  text-decoration: none;
 }
 
 table {
@@ -556,6 +587,12 @@ table .desc {
 
 .linklist {
   margin-bottom: 1em;
+}
+
+ul.linklist {
+  margin-top: 0;
+  list-style-type: none;
+  padding-right: 0;
 }
 
 .linklistwithchild {
